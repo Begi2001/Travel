@@ -1,0 +1,68 @@
+.HomeWraper {
+  width: 100%;
+  height: 100vh;
+  border: dashed;
+  border: 1px solid red;
+  color: rgb(157, 155, 155);
+}
+.HomeWraper .InHomeWraper {
+  padding: 0 140px;
+  padding-top: 150px;
+}
+.HomeWraper .InHomeWraper .WraperIn {
+  width: 100%;
+  display: flex;
+}
+.HomeWraper .InHomeWraper .WraperIn .titleHome {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.HomeWraper .InHomeWraper .WraperIn .titleHome .travelTitle {
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: white;
+  font-size: 72px;
+  text-transform: uppercase;
+  line-height: 75px;
+}
+.HomeWraper .InHomeWraper .WraperIn .titleHome .titleWith {
+  font-family: "Karma", serif;
+  color: rgb(255, 199, 0);
+  font-size: 64px;
+  line-height: 0px;
+  font-family: "mr_KindlyJasmineG";
+  text-transform: lowercase;
+  margin-left: 525px;
+}
+.HomeWraper .InHomeWraper .WraperIn .titleHome .titleNamr {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 96px;
+  color: greenyellow;
+  text-transform: uppercase;
+  line-height: 117px;
+  margin-bottom: 50px;
+}
+.HomeWraper .InHomeWraper .WraperIn .titleHome .btnPero {
+  width: 230px;
+  height: 50px;
+  border-radius: 60px;
+  cursor: pointer;
+  font-size: 14px;
+  background: linear-gradient(92.71deg, #0499dd 0%, #17c1bc 100%);
+  border: none;
+  color: white;
+}
+.HomeWraper .InHomeWraper .WraperIn .links {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.HomeWraper .InHomeWraper .WraperIn .links .linksSvg {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}

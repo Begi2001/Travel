@@ -1,0 +1,61 @@
+.BigSelector {
+  width: 1120px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  padding: 60px 60px;
+  gap: 60px;
+  .selectorType {
+    gap: 30px;
+    width: 475px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .titleType {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      cursor: pointer;
+    }
+  }
+  .WraperSelected {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    .selectedDiv {
+      display: flex;
+      width: 235px;
+      background: #ffffff;
+      box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      justify-content: space-between;
+      padding: 17px 32px 17px 25px;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+    }
+    .btnShow {
+      width: 235px;
+      padding: 17px 32px 17px 25px;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+      background: linear-gradient(92.71deg, #0499dd 0%, #17c1bc 100%);
+      border-radius: 10px;
+      color: #ffffff;
+      border: none;
+      cursor: pointer;
+    }
+  }
+}

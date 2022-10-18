@@ -1,0 +1,103 @@
+.MainRecallDiv {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1300px;
+  .topRecall {
+    width: 100%;
+    padding: 150px 70px 100px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .titleRecall {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 29px;
+      color: #0499dd;
+    }
+    .watchAll {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 15px;
+      text-decoration-line: underline;
+      color: #282828;
+    }
+  }
+  .sliderRecall {
+    width: 100%;
+    .swiperRecall {
+      margin: 0 auto;
+      max-width: 1300px;
+      overflow: visible;
+      padding-left: 45px;
+      width: 100%;
+      display: flex;
+      .swiper-wrapper {
+        height: 430px;
+      }
+      .swiper-pagination {
+        display: none;
+      }
+      .swiper-button-next {
+        position: absolute;
+        top: 400px;
+        left: 170px;
+      }
+      .swiper-button-prev {
+        position: absolute;
+        top: 400px;
+        left: 125px;
+      }
+      .swiperWraper {
+        width: 740px !important;
+        height: 322px !important;
+        display: flex;
+        // border: 1px solid red;
+
+        .cardsRecall {
+          width: 740px;
+          height: 322px;
+          background: #ededed;
+          border-radius: 10px;
+          padding: 38px 45px;
+          .wraperRecall {
+            width: 100%;
+            display: flex;
+            gap: 20px;
+            justify-content: space-between;
+            .imgRecall {
+              width: 245px;
+              height: 245px;
+            }
+            .NameRecall {
+              width: 100%;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              margin-bottom: 60px;
+              .name {
+                font-family: "Montserrat";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 17px;
+                color: #282828;
+              }
+              .recal {
+                font-family: "Montserrat";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 17px;
+                color: #282828;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

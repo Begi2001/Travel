@@ -1,0 +1,64 @@
+.WraperFilters {
+  //   width: 100%;
+  width: 295px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 25px 35px;
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  gap: 40px;
+  .divPriceWraper {
+    width: 230px;
+    height: 200px;
+    border-bottom: 1px solid rgba(237, 237, 237, 1);
+    .titleFilter {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+      color: #0499dd;
+      margin-bottom: 35px;
+    }
+    .divPrice {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .titlePrice {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        color: #282828;
+      }
+      .minusHr {
+        height: 2px;
+        width: 16px;
+        border: 1px solid #0499dd;
+        cursor: pointer;
+      }
+    }
+    .inputsPricet {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 20px;
+      margin-bottom: 20px;
+      .priceInput {
+        display: flex;
+        width: 105px;
+        height: 30px;
+        font-size: 14px;
+        padding-left: 15px;
+        background: #ffffff;
+        border: 1px solid #ededed;
+        border-radius: 40px;
+        outline: none;
+      }
+    }
+  }
+
+  border-bottom: 1px solid rgba(237, 237, 237, 1);
+}

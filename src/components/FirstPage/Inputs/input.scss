@@ -1,0 +1,98 @@
+.MainWraperInp {
+  display: flex;
+  width: 100%;
+  padding-top: 160px;
+  .BigWraperInp {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    .MainInputWraper {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      margin: 0;
+      max-width: 1300px;
+      .DivInput {
+        width: 560px;
+        height: 640px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 167px 95px 143px 105px;
+        background: rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(10px);
+        .top {
+          display: flex;
+          flex-direction: column;
+        }
+        .midle {
+          display: flex;
+          flex-direction: column;
+          height: 200px;
+          justify-content: space-between;
+          padding-top: 25px;
+          padding-bottom: 40px;
+
+          .nameInp {
+            border: none;
+            outline: none;
+            border-bottom: 1px solid white;
+            color: white;
+            background: transparent;
+            font-size: 15px;
+          }
+          ::placeholder {
+            color: white;
+          }
+          .phoneInp {
+            border: none;
+            outline: none;
+            border-bottom: 1px solid white;
+            color: white;
+            background: transparent;
+            font-size: 15px;
+          }
+          .mailInp {
+            border: none;
+            outline: none;
+            border-bottom: 1px solid white;
+            color: white;
+            background: transparent;
+            font-size: 15px;
+          }
+        }
+        .Qstn {
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 29px;
+          color: white;
+        }
+        .clickRequest {
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 17px;
+          color: #ffc700;
+        }
+
+        .btnRequest {
+          width: 230px;
+          height: 50px;
+
+          background: linear-gradient(92.71deg, #0499dd 0%, #17c1bc 100%);
+          border-radius: 60px;
+          color: white;
+          border: none;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

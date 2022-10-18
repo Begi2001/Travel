@@ -1,0 +1,66 @@
+.MainHomeWraper {
+  border: dashed;
+  color: rgb(157, 155, 155);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.MainHomeWraper .InHomeWraper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 190px;
+  padding-left: 160px;
+  padding-right: 159px;
+}
+.MainHomeWraper .InHomeWraper .leftDiv {
+  display: flex;
+  flex-direction: column;
+}
+.MainHomeWraper .InHomeWraper .leftDiv .treavelP {
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: white;
+  font-size: 72px;
+  text-transform: uppercase;
+  line-height: 75px;
+}
+.MainHomeWraper .InHomeWraper .leftDiv .withP {
+  font-family: "mr_KindlyJasmineG";
+  color: rgb(255, 199, 0);
+  font-size: 64px;
+  line-height: 0px;
+  text-transform: lowercase;
+  margin-left: 525px;
+}
+.MainHomeWraper .InHomeWraper .leftDiv .peroP {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 96px;
+  color: greenyellow;
+  text-transform: uppercase;
+  line-height: 117px;
+  margin-bottom: 50px;
+}
+.MainHomeWraper .InHomeWraper .leftDiv .btnExc {
+  width: 230px;
+  height: 50px;
+  border-radius: 60px;
+  cursor: pointer;
+  font-size: 14px;
+  background: linear-gradient(92.71deg, #0499dd 0%, #17c1bc 100%);
+  border: none;
+  color: white;
+}
+.MainHomeWraper .InHomeWraper .rightDiv {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  padding-top: 85px;
+}
+.MainHomeWraper .InHomeWraper .rightDiv .linkSvg {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}

@@ -1,0 +1,78 @@
+.bigHomeWraper {
+  width: 100%;
+  border: dashed;
+  color: rgb(157, 155, 155);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .titlesWraper {
+    margin: 0 auto;
+    max-width: 1300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 65px 50px 45px;
+    padding-top: 130px;
+    margin-bottom: 90px;
+    .left {
+      display: flex;
+      flex-direction: column;
+      .travel {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 80px;
+        color: #ffffff;
+        text-transform: uppercase;
+      }
+      .with {
+        font-family: "mr_KindlyJasmineG";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 1px;
+        color: #ffc700;
+        text-align: end;
+        margin-right: 10px;
+      }
+      .pero {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 96px;
+        text-transform: uppercase;
+        color: white;
+        line-height: 105px;
+        margin-bottom: 60px;
+      }
+      .navBtn {
+        width: 230px;
+        height: 50px;
+        .toExc {
+          width: 230px;
+          height: 50px;
+          background: linear-gradient(92.71deg, #0499dd 0%, #17c1bc 100%);
+          border-radius: 60px;
+          border: none;
+          cursor: pointer;
+          color: white;
+        }
+      }
+    }
+    .right {
+      display: flex;
+      flex-direction: column;
+      padding-top: 70px;
+      gap: 15px;
+      .svgLinks {
+        width: 35px;
+        height: 35px;
+        cursor: pointer;
+      }
+    }
+  }
+  .carusel {
+    color: rgb(0, 0, 0);
+  }
+}

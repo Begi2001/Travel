@@ -1,0 +1,19 @@
+.NavWraper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 140px;
+}
+.NavWraper .logoSvg {
+  width: 40px;
+  height: 58px;
+}
+.NavWraper .navTitles {
+  width: 350px;
+  display: flex;
+  justify-content: space-around;
+}
+.NavWraper .navTitles .titleNav {
+  color: white;
+}

@@ -1,0 +1,148 @@
+.MainWraper {
+    width: 100vw;
+  display: flex;
+  flex-direction: column;
+  .titleTours {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #0499dd;
+    margin-bottom: 50px;
+  }
+  .cardWraper {
+    width: 100%;
+    width: 779px;
+    gap: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    background: #ffffff;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+
+    @media (max-width: "977px") {
+      justify-content: center;
+    }
+    .squareImg {
+      width: 238px;
+      height: 303px;
+    }
+    .infocards {
+      width: 440px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      @media (max-width: "1412px") {
+        border: 1px solid red;
+        width: 100%;
+        margin-bottom: 40px;
+        justify-content: center;
+      }
+      @media (max-width: "977px") {
+        border: 1px solid red;
+        // width: 440px;
+      }
+      .carType {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        color: #ffc700;
+      }
+      .titlePlace {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        color: #282828;
+      }
+      .WraperFlex {
+        border: 1px solid red;
+        display: flex;
+        gap: 25px;
+        padding-top: 10px;
+        .flexDiv {
+          display: flex;
+          gap: 10px;
+          .moneyWraper {
+            .moneyDiv {
+              display: flex;
+              gap: 10px;
+              .coinsImg {
+                width: 22px;
+                height: 22px;
+              }
+              .moneyNm {
+                font-family: "Montserrat";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 22px;
+                color: #0499dd;
+              }
+            }
+          }
+          .ticket {
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 800;
+            font-size: 10px;
+            line-height: 12px;
+            color: #282828;
+          }
+        }
+        .timeDiv {
+          display: flex;
+          align-items: center;
+          margin-bottom: 15px;
+          gap: 10px;
+          .timeImg {
+            width: 14px;
+            height: 14px;
+          }
+          .timeNm {
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+            color: #0499dd;
+          }
+        }
+      }
+
+      .hrDscrp {
+        display: flex;
+        gap: 10px;
+        padding-top: 10px;
+        .titleHr {
+          border: 2px solid rgba(4, 153, 221, 1);
+        }
+        .titleDscpt {
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 12px;
+          line-height: 15px;
+          color: #282828;
+        }
+      }
+      .btnLike {
+        display: flex;
+        gap: 15px;
+        padding-top: 15px;
+        .btnDetail {
+          width: 160px;
+          height: 40px;
+          background: linear-gradient(92.71deg, #0499dd 0%, #17c1bc 100%);
+          border-radius: 40px;
+          cursor: pointer;
+          border: none;
+        }
+      }
+    }
+  }
+}
