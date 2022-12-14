@@ -30,6 +30,7 @@
     justify-content: center;
     align-items: center;
     padding-top: 40px;
+
   }
   .LeftRight {
     width: 100%;
@@ -37,6 +38,8 @@
     gap: 45px;
     padding-top: 40px;
     justify-content: center;
+  // border: 1px solid red;
+
     @media (max-width: "1412px") {
     }
   }

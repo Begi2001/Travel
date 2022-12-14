@@ -1,9 +1,10 @@
 .WraperFilters {
   //   width: 100%;
+  // border: 1px solid red;
   width: 295px;
   display: flex;
   flex-wrap: wrap;
-  padding: 25px 35px;
+  padding: 25px 30px;
   background: #ffffff;
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
   border-radius: 10px;
@@ -56,6 +57,80 @@
         border: 1px solid #ededed;
         border-radius: 40px;
         outline: none;
+      }
+    }
+  }
+  .numberBigDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-bottom: 1px solid rgba(237, 237, 237, 1);
+
+    .divPrice {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .numberPeople {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        color: #282828;
+      }
+      .minusHr {
+        height: 2px;
+        width: 16px;
+        border: 1px solid #0499dd;
+        cursor: pointer;
+      }
+    }
+    .numbersBtn {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px !important;
+      margin-bottom: 40px;
+
+      :nth-child(11) {
+        width: 149px;
+        height: 30px;
+        background: #ffffff;
+        border: 1px solid #ededed;
+        border-radius: 40px;
+        &:hover {
+          background-color: #0499dd;
+          color: white;
+          transition: 0.3s;
+        }
+      }
+      .titleNm {
+        width: 73px;
+        height: 30px;
+        background: #ffffff;
+        border: 1px solid #ededed;
+        border-radius: 40px;
+        &:hover {
+          background-color: #0499dd;
+          color: white;
+          transition: 0.3s;
+        }
+      }
+    }
+  }
+  .BigRadio {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    .radioDiv {
+      display: flex;
+      gap: 10px;
+      .label {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+
+        color: #282828;
       }
     }
   }
