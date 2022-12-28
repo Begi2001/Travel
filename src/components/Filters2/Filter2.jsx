@@ -144,7 +144,7 @@ const Filter2 = () => {
 
           <div className="ourTours">
             <p className="titleTour">Наши туры</p>
-            {dataFilter2.map(res => {
+            {dataFilter2.map((res) => {
               if (res.type === type) {
                 return (
                   <div key={res.id} className="WraperMap">
