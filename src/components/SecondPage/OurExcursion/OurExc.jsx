@@ -6,6 +6,7 @@ import Navbar from "../../FirstPage/Navbar/Navbar";
 import TopImg from "../../../assets/ourExcursion/TopBg.png";
 
 import TypesTransoprt from "../TypesTransport/TypesTr";
+import Filter2 from "../../Filters2/Filter2";
 import Filters from "../Filters/Filters";
 import Tours from "../OurTours/Tours";
 
@@ -18,10 +19,11 @@ const OurExc = () => {
       </div>
 
       <div className="InWraper">
-        <TypesTransoprt />
+        {/* <TypesTransoprt /> */}
+        <Filter2/>
         <div className="LeftRight">
-          <Filters />
-          <Tours />
+          {/* <Filters /> */}
+          {/* <Tours /> */}
         </div>
       </div>
     </div>
