@@ -9,9 +9,9 @@ const NavHome = () => {
     <div className="WraperNavHome">
       <section
         className="MainWraper"
-        style={{ backgroundImage: `url(${BgHome})`}}
+        style={{ backgroundImage: `url(${BgHome})` }}
       >
-        <Navbar/>
+        <Navbar />
         <Home2 />
       </section>
     </div>

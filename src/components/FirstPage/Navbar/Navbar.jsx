@@ -29,7 +29,13 @@ const Navbar = () => {
         <NavLink className="titleNav" to="/excursion" activeclassname="active">
           Экскурсии
         </NavLink>
-        <NavLink className="titleNav" to="/personal.cabinet" activeclassname="active">Личный кабинет</NavLink>
+        <NavLink
+          className="titleNav"
+          to="/personal.cabinet"
+          activeclassname="active"
+        >
+          Личный кабинет
+        </NavLink>
       </div>
     </div>
   );

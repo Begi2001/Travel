@@ -20,7 +20,7 @@ const OurExc = () => {
 
       <div className="InWraper">
         {/* <TypesTransoprt /> */}
-        <Filter2/>
+        <Filter2 />
         <div className="LeftRight">
           {/* <Filters /> */}
           {/* <Tours /> */}

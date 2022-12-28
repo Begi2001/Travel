@@ -1,12 +1,12 @@
-import React from 'react'
-import OurExc from './OurExcursion/OurExc'
+import React from "react";
+import OurExc from "./OurExcursion/OurExc";
 
 const Second = () => {
   return (
     <div>
-        <OurExc/>
+      <OurExc />
     </div>
-  )
-}
+  );
+};
 
-export default Second
+export default Second;

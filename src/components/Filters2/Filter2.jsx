@@ -26,7 +26,6 @@ const Filter2 = () => {
     }
   });
 
-
   return (
     <div className="FatherWraper">
       <section className="MainWraper">
