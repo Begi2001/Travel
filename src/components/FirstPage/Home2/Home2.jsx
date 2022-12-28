@@ -22,9 +22,9 @@ const Home2 = () => {
             </NavLink>
           </div>
           <div className="right">
-            <img src={wk} className="svgLinks" />
-            <img src={insta} className="svgLinks" />
-            <img src={facebook} className="svgLinks" />
+            <img src={wk} alt="" className="svgLinks" />
+            <img src={insta} alt="" className="svgLinks" />
+            <img src={facebook} alt="" className="svgLinks" />
           </div>
         </div>
         <Carusel />

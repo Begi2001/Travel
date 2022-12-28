@@ -1,17 +1,13 @@
 import React, { useEffect, useState } from "react";
-
 import "./filter2.scss";
-
 import { dataFilter2 } from "./filter2Data";
 import { numberData } from "./filter2Data";
 import { filterTop } from "./filter2Data";
 import { typeTravel } from "./filter2Data";
-
 import Coin from "../../assets/ourExcursion/coins.png";
 import Time from "../../assets/ourExcursion/time.png";
 import BigImg from "../../assets/ourExcursion/tourImg.png";
 import Like from "../../assets/ourExcursion/like.png";
-import { filterData } from "../SecondPage/Filters/filter";
 
 const Filter2 = () => {
   const [type, setType] = useState("Автобусный тур");
@@ -149,11 +145,10 @@ const Filter2 = () => {
           <div className="ourTours">
             <p className="titleTour">Наши туры</p>
             {dataFilter2.map((res, index) => {
-              // console.log(type, res.type);
               if (res.type === type) {
                 return (
                   <div key={index} className="WraperMap">
-                    <img src={BigImg} />
+                    <img alt="" src={BigImg} />
                     <div className="Tours">
                       <div>
                         <p className="resType">{res.type}</p>
@@ -163,21 +158,21 @@ const Filter2 = () => {
                         <div className="moneyDiv">
                           <div className="leftDiv">
                             <div className="topLeft">
-                              <img src={Coin} />
+                              <img alt="" src={Coin} />
                               <p className="price">{res.moneyAdult}</p>
                             </div>
                             <p className="ticket">Взрослый билет</p>
                           </div>
                           <div className="RightDiv">
                             <div className="topRight">
-                              <img src={Coin} />
+                              <img alt="" src={Coin} />
                               <p>{res.moneyChild}</p>
                             </div>
                             <p className="ticket">Детский билет</p>
                           </div>
                         </div>
                         <div className="timeDiv">
-                          <img className="timePng" src={Time} />
+                          <img alt="" className="timePng" src={Time} />
                           <p>{res.clock}</p>
                         </div>
                       </div>

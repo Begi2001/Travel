@@ -27,24 +27,24 @@ const Footer = () => {
         <div className="rightFooter">
           <div className="inLeft">
             <p className="whtsp">
-              <img src={Whtsp} /> +998 91 234 56 78
+              <img src={Whtsp} alt="" /> +998 91 234 56 78
             </p>
             <p className="whtsp">
-              <img src={Tlgm} /> +998 90 123 45 67
+              <img src={Tlgm} alt="" /> +998 90 123 45 67
             </p>
             <p className="whtsp">
-              <img src={Tlgm} /> Телеграм-бот PeroTravel
+              <img src={Tlgm} alt="" /> Телеграм-бот PeroTravel
             </p>
           </div>
           <div className="inRight">
             <p className="email">
-              <img src={Email} /> office@perotravel.ru
+              <img src={Email} alt="" /> office@perotravel.ru
             </p>
 
             <div className="sociallNet">
-              <img className="linkScl" src={Vk} />
-              <img className="linkScl" src={Insta} />
-              <img className="linkScl" src={Fcb} />
+              <img className="linkScl" src={Vk} alt="" />
+              <img className="linkScl" src={Insta} alt="" />
+              <img className="linkScl" src={Fcb} alt="" />
             </div>
           </div>
         </div>

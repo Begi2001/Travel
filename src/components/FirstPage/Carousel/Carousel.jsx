@@ -42,7 +42,7 @@ const Carusel = () => {
           {data.map((res, index) => (
             <span key={index}>
               <div className="orb">
-                <img src={res.img} />
+                <img alt="" src={res.img} />
               </div>
             </span>
           ))}

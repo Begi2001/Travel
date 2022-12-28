@@ -35,7 +35,7 @@ const Recall = () => {
             <SwiperSlide className="swiperWraper">
               <div className="cardsRecall" key={index}>
                 <div className="wraperRecall">
-                  <img className="imgRecall" src={res.img} />
+                  <img className="imgRecall" src={res.img} alt='' />
                   <div className="NameRecall">
                     <p className="name">{res.name}</p>
                     <p className="recal">{res.recall}</p>
